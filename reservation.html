@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Form</title>
+</head>
+<body style=text-align="centre">
+    <h2>Reservation Form</h2>
+    <form action="reservation.php" method="POST">
+  
+        <label for="fullname">Full Name:</label><br>
+        <input type="text" name="fullname" required><br>
+        <br>
+     
+        <label for="train_number">Train Number:</label><br>
+        <input type="text" name="train_number" required><br>
+         <br>
+        <label for="class_type">Class Type:</label><br>
+        <input type="text" name="class_type" required><br>
+         <br>
+       
+        <label for="date_of_journey">Date of Journey:</label><br>
+        <input type="date" name="date_of_journey" required><br>
+        <br>
+        <label for="from_place">From (Place):</label><br>
+        <input type="text" name="from_place" required><br>
+         <br>
+        <label for="to_destination">To Destination:</label><br>
+        <input type="text" name="to_destination" required><br>
+        <br>
+        
+        <button type="submit">Insert Reservation</button>
+    </form>
+</body>
+</html>
